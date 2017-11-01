@@ -1,1 +1,5 @@
-# IVIVE-Workflow-One-Compartment-P-PK-Model-
+# IVIVE-Workflow-One-Compartment-P-PK-Model
+
+This in vitro to in vivo extrapolation (IVIVE) workflow can be applied for evaluation of correlation between in vitro and in vivo assay results, as well as for identification in vitro assay that most accurately predicts in vivo data. The required inputs of the workflow are chemical name, CASRN, in vitro active concentrations, fraction of chemical unbound to protein (fu), intrinsic clearance (L/h), and renal clearance (L/h). The in vivo assay data are optional. The outputs of the workflow are the EAD estimates from in vitro assays with or without fu adjustment in vivo. The EAD estimates can be compared to the effective dose levels (LELs) of in vivo assays that are user-provided. 
+
+One workflow example is given that focuses on assays measuring estrogenic activity. In this example, the activity concentration at cut-off (ACC) from estrogen receptor (ER) pathway assays were applied to the workflow to obtain daily equivalent administered doses (EADs) that would result in a blood concentration equivalent to the ACC at steady state for a few chemicals. To validate the results, the EADs were compared to the LELs in rat uterotrophic assays from a highly-curated database. 
